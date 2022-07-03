@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+html {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+body {
+	font-family: 'Splash';
+	background: #666;
+	color: #eee;
+	letter-spacing: 0.2em;
+}
+
+h1,
+h4 {
+	margin: 1rem;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0,0,0,0.75);
+}
+
+.container {
+	max-width: 1400px;
+	width: 100%;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.countdown{
+	padding: 0 20px;
+}
+
+/* .countdown__about {
+	margin-bottom: 10rem;
+}
+
+.countdown__about h1 {
+	text-align: center;
+	font-size: 6rem;
+} */
+
+.countdown__numbers {
+	display: flex;
+	justify-content: space-around;
+}
+
+.countdown__numbers div {
+	flex: 1 1 100%;
+	text-align: center;
+}
+
+.countdown__numbers h4 {
+	font-size: 8rem;
+	font-family: 'Comic Sans MS';
+}
+
+.countdown__numbers span {
+	font-size: 3rem;
+}
